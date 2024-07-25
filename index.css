@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+body{
+    background-image: url(rm222-mind-14.jpg);
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+margin:auto;
+width: 300px;
+height: 20rem;
+border: 1px solid #5a5a5a;
+border-radius: 20px;
+padding: 20px;
+background-color: rgba(1, 0.1,1, 0.1);
+margin-top: 100px;
+}
+.text-box
+{
+margin: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+input[class="password"]{
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    height: 2rem;
+    width: 250px;
+    background-color: transparent;
+    font-style: italic;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+}
+input[class="sign-up"]{
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    height: 2rem;
+    width: 250px;
+    background-color: transparent;
+    font-style: italic;
+    text-align: left;
+}
+input[class="log-inbtn"]{
+    border:1px solid #000;
+    border-radius: 15px;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(111, 241, 111);
+    margin-top: 20px;
+  position: absolute;
+  top: 350px;
+}
+.log-inbtn:hover{
+    background-color: rgb(18, 160, 18) ;
+}

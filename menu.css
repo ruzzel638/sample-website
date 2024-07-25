@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+body{
+   background-color: #5482ff;
+   
+}
+ul{
+    background-color: black;
+}
+li{
+display:inline-block;
+position: relative;
+}
+.active,.Home  ul li:hover{
+    background: #445858;
+    border-radius: 15px;
+
+}
+a{
+    display: block;
+    padding:10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 15px;
+}
+ul.dropdown li{
+    display: block;
+}
+ul.dropdown
+{
+    width: 100%;
+    background: #0000;
+    position: absolute;
+    z-index: 999;
+    display: none
+}
+a:hover{
+background: #aaaaaa;
+}
+.Drop-content a
+{
+    color: black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.Drop-content a:hover{
+    background: #4d4d4d;
+}
+.Drop-content.Drop-Gender{
+    display: block;
+}
+.Drop-content
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
